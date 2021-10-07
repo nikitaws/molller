@@ -1,0 +1,52 @@
+/*Таймер*/
+.countbox:before {
+    content: 'До конца акции осталось:';
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 12px;
+}
+.countbox {
+    font-size: 24px;
+    height: 102px;
+    width: 100%;
+    padding-left: 8px;
+    margin: 0px auto 10px;
+    color: #fff;
+    box-sizing: border-box;
+}
+.countbox .countbox-num {
+    float: left;
+}
+.countbox .countbox-space {
+    float: left;
+    height: 48px;
+    width: 20px;
+    line-height: 48px;
+    text-align: left;
+}
+.countbox-hours1, .countbox-mins1, .countbox-secs1, .countbox-hours2, .countbox-mins2, .countbox-secs2 {
+    float: left;
+    margin-right: 6px;
+    width: 33px;
+    height: 52px;
+    line-height: 50px;
+    margin-bottom: 3px;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    background: url(../img/sprite.png) no-repeat right bottom;
+    font-size: 24px;
+    font-weight: 400;
+}
+.countbox-secs2 {
+    margin-right: 0;
+}
+.countbox-hours-text, .countbox-mins-text, .countbox-secs-text {
+    font-size: 13px;
+    font-weight: 400;
+    color:#fff;
+    text-align: center;
+}

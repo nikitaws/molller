@@ -1,0 +1,893 @@
+.note {
+    color:lightgray;
+
+    width: 255px;
+}
+
+.note1 {
+    display: none;
+    margin: 0 auto;
+}
+.note2 {
+    margin-left: auto;
+}
+
+@media (max-width: 976px) {
+    .note1 { display: block; }
+    .note2 { display: none; }
+}
+
+/*block1*//* after_qbici */
+.block1 {
+    background: url(../img/b1.jpg) no-repeat center top;
+    height: 652px;
+    padding: 17px 0 0;
+    color:#fff;
+}
+.block1 .wrap:before {
+    content: '';
+    display: block;
+    width: 78px;
+    height: 36px;
+    background: url(../img/sprite.png) no-repeat -201px -1px;
+    position: absolute;
+    top:2px;
+    right: 20px;
+}
+.logo {
+	background: url('../img/sprite.png') no-repeat 0 0;
+	width: 176px;
+	height: 41px;
+    margin: 5px 0 0 10px;
+    float: left;
+}
+.imp {
+    float: left;
+    margin-left: 190px;
+}
+.imp li {
+    line-height: 20px;
+    display: inline-block;
+}
+.imp li:first-child {
+    margin-right: 40px;
+}
+.imp li:before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    float: left;
+    background: url(../img/sprite.png) no-repeat 0 -57px;
+    margin-right: 15px;
+    position: relative;
+    top:7px;
+}
+.imp li:nth-child(2):before {
+    background-position: -34px -57px;
+}
+.block1 h1 {
+    font-size: 41px;
+    font-weight: 800;
+    text-align: center;
+    margin: 34px 0 12px;
+}
+.block1 h1 span {
+    color:#ffd102;
+}
+.block1 h2 {
+    color:#cebeda;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    text-align: center;
+}
+.stock {
+    font-weight: 700;
+    font-size: 16px;
+    width: 293px;
+    height: 43px;
+    border:1px dashed #756c7d;
+    border-right: none;
+    border-radius: 7px 0 0 7px;
+    -webkit-border-radius: 7px 0 0 7px;
+    text-align: center;
+    line-height: 38px;
+    margin: 52px 0 0 44px;
+    float: left;
+}
+.stock span {
+    color:#ffd102;
+}
+.button-m-after{
+  position: relative;
+}
+.button-m-after::after{
+  position: absolute;
+  content: '*при заказе набора';
+  bottom: -55px;
+      font-size: 16px;
+      right: 67px;
+  text-transform: none;
+}
+.recom {
+    float: right;
+    width: 305px;
+    margin: 35px 0 0 0;
+        position: relative;
+        left: 18px;
+}
+.recom li {
+    clear: both;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.recom p {
+    font-size: 16px;
+    overflow: hidden;
+}
+.recom li:before {
+    content: '';
+    display: block;
+    float: left;
+	background: url('../img/sprite.png') no-repeat -262px -57px;
+	width: 17px;
+	height: 17px;
+    margin-right:10px;
+    position: relative;
+    top:4px;
+}
+.block1 .button-m {
+    margin: 10px 10px 0 0;
+    float: right;
+}
+/*block2*//* michael-k90 */
+.block2 {
+    padding: 40px 0 0;
+    height: 735px;
+}
+.prtext {
+    font-size: 15px;
+    background: #fafafa;
+    border:1px solid #eaeaea;
+    position: relative;
+    padding: 10px 107px 13px 25px;
+    width: 690px;
+    margin: 0 0 0 20px;
+}
+.prtext:before {
+    content: '';
+    display: block;
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background: #2377cf;
+}
+.pr {
+    width: 500px;
+    text-align: center;
+    margin: 30px 0 0 20px;
+}
+.pr li {
+    font-size: 15px;
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+.pr li:before {
+    content: '';
+    display: block;
+    width: 87px;
+    height: 87px;
+    background: #2377cf url(../img/icon.png) no-repeat center 24px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    margin: 0 auto 7px;
+}
+.pr li:nth-child(2):before {
+    background-position: center -64px;
+}
+.pr li:nth-child(3):before {
+    background-position: center -153px;
+}
+.pr li:nth-child(4):before {
+    background-position: center -234px;
+}
+.product {
+    background: url(../img/product.png) no-repeat 0 0 / contain;
+    width: 212px;
+    height: 475px;
+    position: absolute;
+    right: 0px;
+    top:119px;
+    z-index: 3;
+}
+.primg {
+    text-align: center;
+    margin-top: 20px;
+}
+.primg li {
+    width: 276px;
+    height: 137px;
+    background: url(../img/ba.jpg) no-repeat 0 0;
+    display: inline-block;
+    border:4px solid #edf0f3;
+    margin: 0 7px;
+}
+.primg li:nth-child(2) {
+    background-position: -276px 0;
+}
+.primg li:nth-child(3) {
+    background-position: -552px 0;
+}
+/*block3*//* bizlife_inc */
+.block3 {
+    background: url(../img/b2.jpg) no-repeat center top;
+    height: 583px;
+    padding: 110px 0 0;
+    color:#fff;
+}
+.block3 .wrap {
+    padding: 0;
+}
+.block3 .title, .block3 .title span {
+    color:#fff;
+}
+.result {
+    text-align: center;
+    width: 100%;
+}
+.result li {
+    display: inline-block;
+    width: 237px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+.result li:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 166px;
+    background: url(../img/result.png) no-repeat 37px 0;
+    margin: 0 auto 25px;
+}
+.result li:nth-child(2):before {
+    background-position: -195px 0;
+}
+.result li:nth-child(3):before {
+    background-position: -429px 0;
+}
+.result li:nth-child(4):before {
+    background-position: -196px 0;
+}
+/*block4*//* owmen17 */
+.block4 {
+    background: url(../img/b3.png) no-repeat center top;
+    padding: 1px 0 60px;
+}
+.step {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.step li {
+    display: inline-block;
+    vertical-align: top;
+    width: 205px;
+    margin: 0 12px;
+    background: url(../img/step.jpg) no-repeat 0 0;
+    padding-top: 163px;
+}
+.step li:nth-child(2) {
+    background-position: -235px 0;/* owmen17 */
+}
+.step li:nth-child(3) {
+    background-position: -470px 0;
+}
+.step li:nth-child(4) {
+    background-position: -705px 0;
+}
+/*block5*//* owmen17 */
+.block5 {
+    background: #ffb600;
+    padding: 40px 0;
+}
+.block5 .title {
+    color:#000;
+}
+.block5 .title span {
+    color:#fff;
+}
+.block5 h2.title:after {
+    background: #fff;
+}
+.reviews {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.revcont {
+    width: 100%;
+}
+.rev {
+    width: 810px;
+    margin: 0 auto;
+    background: #fff;
+}
+.rev img {
+    display: block;
+    float: left;
+    margin-right: 25px;
+}
+.rev span {
+    display: block;
+    font-size: 16px;
+    height: 82px;
+    overflow: hidden;
+    padding-top: 23px;
+}
+.rev span b {
+    display: inline-block;
+    padding: 5px 0;
+}
+.rev span:before {
+    content: '';
+    display: block;
+    width: 59px;
+    height: 59px;
+    background: url(../img/rev.jpg) no-repeat 0 0;
+    float: left;
+    margin-right: 12px;
+}
+.rev span:after {
+    content: '';
+    display: block;
+    width: 94px;
+    height: 13px;
+    background: url(../img/sprite.png) no-repeat -102px bottom;
+    overflow: hidden;
+}
+.rev p {
+    overflow: hidden;
+    padding: 20px 35px 0 0;
+    text-align: justify;
+}
+.r2 span:before {
+    background-position: -59px 0;
+}
+.r3 span:before {
+    background-position: -118px 0;
+}
+/*block6*//* michael-k90 */
+.block6 {
+    background: url(../img/b4.png) no-repeat center top;
+    height: 377px;
+}
+.slesar {
+    width: 554px;
+    float: right;
+    margin: 50px 10px 0 0;
+    text-align: center;
+}
+.slesar h3 {
+    font-size: 16px;
+    text-transform: none;
+    margin-bottom: 20px;
+}
+.slesar h3:before {
+    content: '';
+    display: block;
+    background: url(../img/sprite.png) no-repeat 0 -109px;
+    width: 52px;
+	height: 52px;
+    margin: 0 auto 15px;
+}
+.slesar p {
+    text-align: justify;
+    padding: 0 22px;
+    display: inline-block;
+    position: relative;
+}
+.slesar p:before, .slesar p:after  {
+    content: '';
+    display: block;
+    width: 13px;
+    height: 9px;
+    background: url(../img/sprite.png) no-repeat -203px -57px;
+    position: absolute;
+}
+.slesar p:before {
+    top: -2px;
+    left: 3px;
+}
+.slesar p:after {
+    bottom: 11px;
+    right: 6px;
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+/*block7*//* bizlife_inc */
+.block7 {
+    background: url(../img/b5.jpg) no-repeat center top;
+    height: 559px;
+    padding: 50px 0 0;
+}
+.prim {
+    width: 547px;
+    margin: 0 0 0 332px;
+    background: rgba(255,255,255,.1);
+    padding: 8px;
+}
+.prim .pcont {
+    margin: 0 auto;
+}
+.block7 .button-m {
+    margin: 45px 0 0 458px;
+}
+/*block8*/
+.block8 {
+    padding: 50px 0 60px;
+}
+.ship {
+    text-align: center;
+    position: relative;
+}
+.ship:before {
+    content:'●●●●●●●';
+    display: inline-block;
+    line-height: 10px;
+    letter-spacing: 71px;
+    color:#e5e5e5;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    top:203px;
+    left: 179px;
+    width: 656px;
+    height: 10px;
+    z-index: -1;
+}
+.ship li {
+    display: inline-block;
+    width: 33%;
+}
+.ship p {
+    line-height: 26px;
+    font-size: 16px;
+}
+.ship li:before {
+    content: '';
+    display: block;
+    width: 243px;
+    height: 173px;
+    margin: 0 auto 16px;
+    background: url(../img/ship.png) no-repeat 0 0;
+}
+.ship li:nth-child(2):before {
+    background-position: -243px 0;
+}
+.ship li:nth-child(3):before {
+    background-position: -486px 0;
+}
+.ship p:before {
+    content: '1';
+    display: block;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    background: #ffb600;
+    color:#fff;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 35px;
+    margin: 0 auto 15px;
+    -webkit-box-shadow: 0 0 0 1px #ebebeb;
+    box-shadow: 0 0 0 1px #ebebeb;
+    border:3px solid #fff;
+    background-clip: padding-box;
+    z-index: 2;
+}
+.ship li:nth-child(2) p:before {
+    content: '2';
+}
+.ship li:nth-child(3) p:before {
+    content: '3';
+}
+/*block9*/
+.block9 {
+   background: url(../img/b1.jpg) no-repeat 61% 7px;
+    height: 658px;
+    color:#fff;
+    padding: 11px 0 0;
+}
+.block9 h2 {
+    color:#fff;
+    font-weight: 800;
+    font-size: 45px;
+    text-align: center;
+}
+.block9 h2 span {
+    color:#ffd102;
+}
+.block9 .recom {
+    width: 520px;
+    position: absolute;
+    top: 86px;
+    left: 31px;
+    margin: 0;
+}
+.block9 .recom li {
+    display: inline-block;
+    width: 305px;
+}
+.block9 .recom li:nth-child(even) {
+    width: 206px;
+}
+.block9 .stock {
+    margin: 182px 0 0 14px;
+}
+.formbox {
+    width: 302px;
+    float: right;
+    margin: 10px 31px 0 0;
+}
+.formbox .price {
+    width: 100%;
+    margin: 0 0 12px 0;
+}
+.block9 h3, .sale, .auto-small, .block9 h1 {
+    display: none;
+}
+/*footer*//* endzeit_____ */
+.footer {
+    text-align: center;
+    padding: 40px 0 30px;
+}
+.footer a {
+    font-size: 14px;
+    color:#333;
+}
+/*-------------------------------------- Media Queries ----959---------------------------------*/
+@media screen and (max-width: 976px) {
+  .recom {
+    margin: 10px 0 0 0;
+  }
+  .old-cost,
+  .new-cost {
+    line-height: 36px;
+  }
+    .block1 {
+        background: url(../img/b1m.jpg) no-repeat center top;
+}
+    .block1 .wrap:before, .block9 .recom, .block9 .stock, .ship:before  {
+        display: none;
+}
+    .block1 .wrap, .block4 .wrap {
+        padding: 0;
+    }
+    .imp {
+        margin-left: 50px;
+}
+    .imp li:first-child {
+        margin-right: 13px;
+}
+    .block1 h1 {
+        font-size: 36px;
+        margin: 30px 0 12px;
+}
+    .stock {
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+           border-right: 1px dashed #ffd207;
+           margin: 27px 0 0 22px;
+           background-color: #5d85a8;
+}
+    h2.title {
+        font-size: 39px;
+}
+    .product {
+        width: 120px;
+        height: 333px;
+        position: static;
+        margin: 0 auto 30px;
+}
+    .prtext {
+        font-size: 15px;
+        padding: 20px;
+        width: 100%;
+}
+    .block2 {
+        height: auto;
+        padding-bottom: 40px;
+}
+    .pr {
+        width: 100%;
+        margin: 30px 0 0 0;
+}
+    .block3, .block7 {
+        background: #4c344f; /* Old browsers */
+        background: -moz-linear-gradient(top,  #4c344f 0%, #2b2940 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  #4c344f 0%,#2b2940 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  #4c344f 0%,#2b2940 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c344f', endColorstr='#2b2940',GradientType=0 ); /* IE6-9 */
+        height: auto;
+        padding: 40px 0;
+}
+    .result li {
+        margin: 0 15px 30px 15px;
+}
+    .block4 {
+        /* background: url(http://novoceramic490.xcartpro.com/r1/img/b3m.jpg) no-repeat center 40px; */
+        padding: 1px 0 60px;
+}
+    .step li {
+        margin: 0 20px 20px;
+}
+    .reviews {
+        width: 400px;
+        margin: 0 auto;
+}
+    .rev {
+        width: 333px;
+}
+    .rev p {
+        padding: 20px;
+}
+    .rev img {
+        float: none;
+        margin-right: 0;
+}
+    .rev span {
+        margin-left: 20px;
+}
+    .block6 {
+        background: #fff;
+        height: auto;
+        padding: 40px 0;
+}
+    .slesar {
+        width: 100%;
+        float: none;
+        margin: 0;
+}
+    .prim {
+        width: 547px;
+        margin: 0 auto;
+}
+    .block7 .button-m {
+        margin: 45px auto 0;
+}
+    .ship li {
+        display: inline-block;
+        width: 100%;
+}
+    .ship li:before {
+        float: left;
+        margin: 0 30px 30px 0;
+}
+    .ship p {
+        overflow: hidden;
+}
+    .ship {
+        padding-left: 50px;
+}
+    .block8 {
+        padding: 40px 0;
+}
+    .block9 {
+        background: url(../img/b1m.jpg) no-repeat center top;
+        height: 623px;
+        padding: 19px 0 0;
+}
+    .block9 h2 {
+        font-size: 30px;
+}
+    .formbox {
+        width: 302px;
+        margin: 10px 19px 0 0;
+}
+    .block9 h3 {
+        color: #cebeda;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.7px;
+        text-align: center;
+        width: 255px;
+        position: absolute;
+        top: 82px;
+        left: 13px;
+        line-height: 22px;
+        display: block;
+        background-color: #5d85a8;
+        border-radius: 7px;
+        color: #fff;
+}
+    .sale {
+            display: block;
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 700;
+            text-align: center;
+            width: 85px;
+            position: absolute;
+            top: 295px;
+            left: -20px;
+            text-transform: uppercase;
+            line-height: 22px;
+            background-color: #ff8400;
+            border-radius: 29%;
+    }
+    .sale p {
+        font-size: 28px;
+    }
+}
+/*-------------------------------------- Media Queries ----639---------------------------------*//* after_qbici */
+@media screen and (max-width: 659px) {
+    .block1 {
+        background: #4c344f; /* Old browsers */
+        background: -moz-linear-gradient(top,  #4c344f 0%, #2b2940 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  #4c344f 0%,#2b2940 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  #4c344f 0%,#2b2940 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c344f', endColorstr='#2b2940',GradientType=0 ); /* IE6-9 */
+        height: auto;
+        padding-bottom: 40px;
+}
+    .logo {
+        margin: 0 auto;
+        float: none;
+}
+    .imp, .stock, .pr li br, .block9 h2 {
+        display: none;
+}
+    .block1 h1 {
+        font-size: 32px;
+        margin: 13px 0 10px;
+}
+    .block1 h2 {
+        line-height: 22px;
+        padding: 0 7px;
+        letter-spacing: 0;
+        margin-bottom: 17px;
+}
+    .auto-small {
+        display: block;
+        background: url(../img/small-auto.png) no-repeat center top;
+        width: 100%;
+        height: 275px;
+}
+    .recom {
+        float: none;
+        width: 305px;
+        margin: 15px auto 0;
+}
+    .price {
+        width: 100%;
+        float: none;
+        margin: 0;
+}
+    .block1 .sale {
+            top: 270px;
+            left: 35px;
+}
+    .block5 h2.title {
+        font-size: 22px;
+}
+    h2.title {
+        font-size: 28px;
+        line-height: 1.1em;
+}
+    h2.title:after{
+        height: 4px;
+    }
+    h2.title > span, .rev span {
+        font-size: 14px;
+}
+    .product {
+        width: 206px;
+        height: 237px;
+        margin: 0 auto 20px;
+}
+    .prtext {
+        font-size: 14px;
+        text-align: justify;
+        margin: 0;
+}
+    .pr li {
+        width: 100%;
+        font-size: 14px;
+        text-align: left;
+}
+    .pr li:before {
+        float: left;
+        margin: 0 20px 0 0;
+        position: relative;
+        top:-20px;
+}
+    .pr {
+        margin: 50px 0 0 0;
+}
+    .primg {
+        margin-top: 0px;
+}
+    .result li {
+        margin: 0 auto 30px;
+}
+    .block3 {
+        padding-bottom: 20px;
+    }
+    .block4 {
+        background:#fff;
+        padding: 1px 0 40px;
+}
+    .block4 .wrap {
+        padding: 0 10px;
+}
+    .block5 .wrap {
+        padding: 0;
+}
+    .reviews {
+        width: 320px;
+}
+    .rev {
+        height: 606px;
+        width: 300px;
+    }
+    .prim {
+        width: 300px;
+}
+    .block7 .button-m {
+        margin: 32px auto 0;
+}
+    .ship {
+        padding-left: 0;
+}
+    .ship li:before {
+        float: none;
+        margin: 0 auto;
+}
+    .ship li {
+        margin-bottom: 40px;
+}
+    .block8 {
+        padding-bottom: 10px;
+}
+    .block9 h1 {
+        display: block;
+        font-size: 32px;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 10px;
+}
+    .block9 h1 span {
+        color:#ffd102;
+    }
+    .block9 h3 {
+        letter-spacing: 0;
+        text-align: center;
+        width: 100%;
+        position: static;
+        margin-bottom: 20px;
+}
+    .block9 {
+        background: url(../img/b6s.jpg) no-repeat center top;
+        height: 1031px;
+        padding: 33px 0 0;
+}
+    .formbox {
+        width: 302px;
+        margin: 9px auto 0;
+}
+    .sale {
+          top: 221px;
+          left: 36px;
+}
+}
+
+/* endzeit_____ */
